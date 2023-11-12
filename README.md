@@ -1,7 +1,8 @@
 # Initial Plan for Spark ML
-<span style="background-color: yellow">project instruction:
-ex1 is my main ML function
-dags is my task scheduler.</span>
+> project instruction:
+>> Ex1 is my main machine learning main function.
+>> Dags is my task scheduler.
+>> Flight is the task function.
 
 
 ## Objectives
