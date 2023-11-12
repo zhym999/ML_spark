@@ -72,7 +72,7 @@ The airport table is not very useful for building the model, so I plan to use th
 
 Obtained a filtered dataset for the airline company DL. Part-00 and part-01 are the results of my two partition calculations.
 
-![image-20231110145429918](.\ml_img/image-20231110145429918.png)
+![image-20231110145429918](ml_img/image-20231110145429918.png)
 
 ## Data Cleaning
 
