@@ -135,7 +135,7 @@ However, I choose the average CV as the final loss = 15.312812266
 
 ### Result Analysis
 
-![1699733801637](C:\Users\zhym\Documents\WeChat Files\wxid_skkuu9d8l2t422\FileStorage\Temp\1699733801637.png)
+![1699733801637](ml_img\1699733801637.png)
 
 We can see that the effect is best when degree = 3. Additionally, to avoid overfitting, it's not advisable to choose too high a degree. Therefore, degree 3 is a balanced choice.
 
