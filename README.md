@@ -72,7 +72,7 @@ The airport table is not very useful for building the model, so I plan to use th
 
 Obtained a filtered dataset for the airline company DL. Part-00 and part-01 are the results of my two partition calculations.
 
-![image-20231110145429918](ml_img\image-20231110145429918.png)
+![image-20231110145429918](.\ml_img/image-20231110145429918.png)
 
 ## Data Cleaning
 
@@ -88,7 +88,7 @@ Eliminate non-compliant data.
 
 ### Execution Results
 
-![image-20231110155013966](ml_img\image-20231110155013966.png)
+![image-20231110155013966](ml_img/image-20231110155013966.png)
 
 ## Feature Selection
 
@@ -100,7 +100,7 @@ Label: ArrDelay Features: DayofMonth, DayOfWeek, OriginAirportID, DestAirportID,
 
 #### Results
 
-![image-20231110164636977](ml_img\image-20231110164636977.png)
+![image-20231110164636977](ml_img/image-20231110164636977.png)
 
 From the image analysis, the label is most correlated with departure delay. There is also some relation with airports.
 
@@ -116,7 +116,7 @@ There is virtually no connection with the date. Therefore, I will choose departu
 
 #### Results
 
-![image-20231110181316977](ml_img\image-20231110181316977.png)
+![image-20231110181316977](ml_img/image-20231110181316977.png)
 
 1. Best hyperparameter n = 7
 2. CV RMSE = 15.210596, 15.6412172, 15.16906986, 15.29447495, 15.24870332
@@ -124,7 +124,7 @@ There is virtually no connection with the date. Therefore, I will choose departu
 
 However, I choose the average CV as the final loss = 15.312812266
 
-![image-20231110182816498](ml_img\image-20231110182816498.png)
+![image-20231110182816498](ml_img/image-20231110182816498.png)
 
 ## Linear Regression
 
@@ -152,7 +152,7 @@ Step 2: Create DAG files in dags for task scheduling.
 
 ## Results
 
-![image-20231111230208003](ml_img\image-20231111230208003.png)
+![image-20231111230208003](ml_img/image-20231111230208003.png)
 
 Code details and comments are in my project.
 
